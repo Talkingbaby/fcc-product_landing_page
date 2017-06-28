@@ -1,0 +1,21 @@
+a {
+    cursor: pointer;
+}
+nav {
+    background-color: #01579B;
+}
+#header-img {
+  background: url('https://material.io/icons/webcomponents/custom_components/material-io-nav/static/images/icons_light.svg');
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px 5px 5px;
+}
+.page-title {
+    text-align: center;
+}
+.page-title .material-icons {
+    font-size: 5em;
+    color: black;
+}
