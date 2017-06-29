@@ -14,15 +14,15 @@
 </head>
 
 <body>
-<header id="header">
+<header id="header" class="navbar-fixed">
     <nav id="nav-bar">
         <div class="nav-wrapper">
             <div id="header-img"></div>
             <a href="#" class="brand-logo">Material Icons</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="nav-link" href="#">Features</a></li>
-                <li><a class="nav-link" href="#">How it Works</a></li>
-                <li><a class="nav-link" href="#">Pricing</a></li>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#info">Material Design?</a></li>
+                <li><a class="nav-link" href="#samples">Samples</a></li>
             </ul>
         </div>
     </nav>
@@ -31,10 +31,127 @@
     <div class="row">
         <div class="col s6 offset-s3 page-title">
             <h2>Icons for everyone</h2>
-            <a href="https://material.io/icons/" target="_blank"><i class="material-icons">flight_takeoff</i></a>
-            <p>Click on the link above to take off into Material Icons</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Enter your email to learn more . . .</label>
+                    </div>
+                    <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">flight_takeoff</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+     <div class="row" id="features">
+        <div class="col s4 feature-info">
+            <i class="material-icons">thumb_up</i>
+            <h3>Hosted by Google</h3>
+            <p>Backed by Google you can be proud to use a collection of beautifully designed icons.</p>
+        </div>
+        <div class="col s4 feature-info">
+            <i class="material-icons">child_friendly</i>
+            <h3>Made for anyone</h3>
+            <p>Anyone can start using Material Icons right away. No heavy lifting required.</p>
+        </div>
+        <div class="col s4 feature-info">
+            <i class="material-icons">all_inclusive</i>
+            <h3>Endless Possibilities</h3>
+            <p>These icons are opened source. That means other brilliant designers can collaborate with Google to constantly produce high-quality icons.</p>
+        </div>
+    </div>
+    <div class="row video" id="info">
+        <h2 class="header">What is Material Design?</h2>
+        <iframe id="video" src="https://www.youtube.com/embed/rrT6v5sOwJg"></iframe>
+    </div>
+    <div class="row" id="samples">
+        <h2 class="header">Samples</h2>
+        <div class="col s6">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <i class="material-icons">attach_file</i>
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Editing software just doesn't make much sense without these editor icons</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://material.io/icons/#ic_attach_file" target="_blank">Take me to the icons</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s6">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <i class="material-icons">desktop_mac</i>
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Hardware icons will make documentation much easier to navigate</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://material.io/icons/#ic_desktop_mac" target="_blank">Take me to the icons</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s6">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <i class="material-icons">blur_on</i>
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Image icons can help your users find the right photography effect</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://material.io/icons/#ic_blur_on" target="_blank">Take me to the icons</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s6">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <i class="material-icons">add_location</i>
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Enjoy a collection of icons to ehance the map experience</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://material.io/icons/#ic_add_location" target="_blank">Take me to the icons</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Additional Info</h5>
+                <p class="grey-text text-lighten-4">For more info on Material icons or Material Design checkout the links on the right.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://material.io/guidelines/#">Guidelines</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://material.io/icons/">Icons</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://material.io/guidelines/components/bottom-navigation.html">Components</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://material.io/guidelines/style/color.html">Color</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Copyright Material Design
+        </div>
+    </div>
+</footer>
 </body>
 </html>

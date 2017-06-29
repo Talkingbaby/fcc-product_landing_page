@@ -1,6 +1,13 @@
 a {
     cursor: pointer;
 }
+h3 {
+    font-size: 2rem;
+}
+.row {
+    margin: 2em 0 5em 0;
+}
+/*navbar*/
 nav {
     background-color: #01579B;
 }
@@ -16,6 +23,39 @@ nav {
     text-align: center;
 }
 .page-title .material-icons {
-    font-size: 5em;
-    color: black;
+    font-size: 2em;
+    color: white;
+}
+#submit {
+    background-color: #009688;
+}
+/*features*/
+.row .feature-info {
+    text-align: center;
+    padding: 1rem;
+}
+.row .feature-info i {
+    font-size: 6em;
+}
+/*iframe video*/
+.video {
+    text-align: center;
+}
+.video iframe {
+    width: 70%;
+    height: 25em;
+}
+/*sample cards*/
+.card-image {
+    padding: 5px;
+}
+.card-image .material-icons {
+    font-size: 10em;
+}
+/*footer*/
+.page-footer {
+    background-color: #0277BD;
+}
+.page-footer .footer-copyright {
+    background-color: #01579B;
 }
